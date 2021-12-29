@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'What we offer?',
+    paragraph: 'We are that company that cares about what it delivers and if you are trying to to make great things than we can do it together!'
   };
 
   return (
@@ -67,13 +67,14 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Blistim
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
-                  </h3>
+                  Reassuringly secure.
+                </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  We value our work too much to allow some gaps in our apps. You can be sure that every kind of data that
+                  will interact with your app is securely stored.
                   </p>
               </div>
               <div className={
@@ -83,7 +84,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('./../../assets/images/features-split-image-01.svg')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -93,14 +94,14 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Blistim
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Ridiculously fast.
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                  Our goal is to make your idea palpable as soon as possible. Because of that we use those kind of technologies which will help us to reach it
+                                    </p>
               </div>
               <div className={
                 classNames(
@@ -109,7 +110,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/features-split-image-02.svg')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -119,14 +120,15 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Blistim
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Performance
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+              Our mission is to level up user experience and in our vision performance is the best way to do this.
+              Based on this we make a priority to make apps with high performance
+              </p>
               </div>
               <div className={
                 classNames(
@@ -135,7 +137,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/features-split-images-03.svg')}
                   alt="Features split 03"
                   width={528}
                   height={396} />
